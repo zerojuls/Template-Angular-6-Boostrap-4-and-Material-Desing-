@@ -1,0 +1,36 @@
+<!-- START MESSAGE MENU -->
+<button mat-icon-button [matMenuTriggerFor]="message" class="ml-4">
+    <mat-icon matBadge="3" matBadgeColor="accent"> message </mat-icon>
+ </button>
+ <mat-menu #message="matMenu">
+    <div class="not-msg-hover">
+       <div mat-menu class="item-not-msg row">
+          <div class="col-4">
+             <img src="assets/images/profile/2.jpg" class="img-not-msg">
+          </div>
+          <div class="col-8">
+             <span class="name-not-mgs"> Matias Espinoza </span>
+             <p class="content-not-mgs"> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Magni, minima. Corrupti veritatis, soluta non laboriosam
+             </p>
+          </div>
+       </div>
+    </div>
+
+    <div class="not-msg-hover">
+       <div mat-menu class="item-not-msg row">
+          <div class="col-4">
+             <img src="assets/images/profile/7.jpg" class="img-not-msg">
+          </div>
+          <div class="col-8">
+             <span class="name-not-mgs"> Javiera Ormeño </span>
+             <p class="content-not-mgs"> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Magni, minima. Corrupti veritatis, soluta non laboriosam
+             </p>
+          </div>
+       </div>
+    </div>
+ </mat-menu>
+ <!-- END MESSAGE MENU -->

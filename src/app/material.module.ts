@@ -8,6 +8,8 @@ import { MatSidenavModule } from '@angular/material/sidenav'; // Sidebar
 import { MatListModule } from '@angular/material/list'; // List
 import { MatBadgeModule } from '@angular/material/badge'; // Badge
 import { MatExpansionModule } from '@angular/material/expansion'; // ExpansionPanel
+import { MatMenuModule } from '@angular/material/menu'; // Menu
+
 
 @NgModule({
   imports: [
@@ -17,7 +19,8 @@ import { MatExpansionModule } from '@angular/material/expansion'; // ExpansionPa
     MatSidenavModule,
     MatListModule,
     MatBadgeModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatMenuModule
   ],
   exports: [
     MatToolbarModule,
@@ -26,7 +29,8 @@ import { MatExpansionModule } from '@angular/material/expansion'; // ExpansionPa
     MatSidenavModule,
     MatListModule,
     MatBadgeModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatMenuModule
   ]
 })
 export class MaterialModule { }

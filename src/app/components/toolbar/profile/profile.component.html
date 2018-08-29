@@ -1,0 +1,31 @@
+<!-- START USER MENU -->
+<button mat-icon-button [matMenuTriggerFor]="profile" class="ml-4">
+  <img src="assets/images/profile/4.jpg" class="image-toolbar">
+</button>
+<mat-menu #profile="matMenu">
+  <div mat-menu class="menu-profile text-center">
+    <img src="assets/images/profile/4.jpg" class="image-profile">
+    <h3 class="name-profile"> Claudia Herrera </h3>
+  </div>
+
+  <button mat-menu-item>
+    <mat-icon color="primary"> person </mat-icon>
+    <span> Perfil </span>
+  </button>
+
+  <button mat-menu-item>
+    <mat-icon color="primary"> history </mat-icon>
+    <span> Historial </span>
+  </button>
+
+  <button mat-menu-item>
+    <mat-icon color="primary"> lock_open </mat-icon>
+    <span> Cambiar contraseña </span>
+  </button>
+
+  <button mat-menu-item>
+    <mat-icon color="primary"> power_settings_new </mat-icon>
+    <span> Cerrar Sesión </span>
+  </button>
+</mat-menu>
+<!-- END USER MENU -->

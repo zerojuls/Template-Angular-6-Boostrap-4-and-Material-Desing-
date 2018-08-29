@@ -6,6 +6,7 @@ import { PAGES_ROUTES } from './pages.routes';
 
 // Modules
 import { SharedModule } from '../shared/shared.module';
+import { ComponentsModule } from '../components/components.module';
 
 // Components
 import { PagesComponent } from './pages.component';
@@ -18,6 +19,7 @@ import { MaterialModule } from '../material.module';
     CommonModule,
     MaterialModule,
     SharedModule,
+    ComponentsModule,
     PAGES_ROUTES,
   ],
   declarations: [

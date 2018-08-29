@@ -17,8 +17,8 @@ export class SidenavService {
       icon: 'person', 
       type: 'accordion',
       submenu: [
-        { name: 'Historial', icon: 'person', url: '/' },
-        { name: 'Cambiar contraseña', icon: 'person', url: '/' }
+        { name: 'Historial', icon: 'history', url: '/' },
+        { name: 'Cambiar contraseña', icon: 'lock_open', url: '/' }
       ]
     },
     { 

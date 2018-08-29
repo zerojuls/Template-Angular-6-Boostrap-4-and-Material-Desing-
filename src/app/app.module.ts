@@ -11,7 +11,7 @@ import { ServicesModule } from './services/services.module';
 // Angular-Material
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-// Components
+// Components (Temporales)
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
@@ -29,7 +29,7 @@ import { NoFoundComponent } from './no-found/no-found.component';
     BrowserAnimationsModule,
     PagesModule,
     ServicesModule,
-    APP_ROUTES,
+    APP_ROUTES
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,19 +1,21 @@
 # Template Angular 6 (Bootstrap and Material desing)
 
 ### Material Components
-* MatToolbar
-* MatIcon
-* MatButton
-* MatSidenav
-* MatList
-* MatBadge
-* MatExpansion
+* Toolbar
+* Icon
+* Button
+* Sidenav
+* List
+* Badge
+* Expansion
+* Menu
 
 ### Modules
 * app.module (Primary)
 * pages.module
 * shared.module
 * services.module
+* components.module
 
 ### Routes
 * app.routes
@@ -27,14 +29,15 @@
 5. NoFound (empty)
 
 ### Components
-1. 
+1. message (toolbar)
+2. notification (toolbar)
+3. profile (toolbar)
 
 ### Services
 1. [Shared] > sidenav.service
 
 
 ## Notes
-
 1. sidenav: Access 'sidenav.service' and fill in the 'menu' attribute with the format set there
     1. type: 'link' or 'accordion'
     2. name: index title
