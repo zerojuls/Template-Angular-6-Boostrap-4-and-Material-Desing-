@@ -20,10 +20,11 @@
 * pages.routes
 
 ### Pages
-1. Home (empty)
-2. login (empty)
-3. register (empty)
-4. noFound (empty)
+1. Pages: Sidenav, Toolbar and ```<router-outlet>```
+2. Home (empty)
+3. Login (empty)
+4. Register (empty)
+5. NoFound (empty)
 
 ### Components
 1. 
@@ -34,8 +35,7 @@
 
 ## Notes
 
-1. sidenav
-    Access 'sidenav.service' and fill in the 'menu' attribute with the format set there
+1. sidenav: Access 'sidenav.service' and fill in the 'menu' attribute with the format set there
     1. type: 'link' or 'accordion'
     2. name: index title
     3. icon: index icon
