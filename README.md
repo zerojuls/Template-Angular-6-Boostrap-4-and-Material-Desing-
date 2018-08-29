@@ -25,6 +25,9 @@
 3. register (empty)
 4. noFound (empty)
 
+### Components
+1. 
+
 ### Services
 1. [Shared] > sidenav.service
 
@@ -32,7 +35,12 @@
 ## Notes
 
 1. sidenav
-... Para llenarlo se debe acceder a sidenav.service y llenar el array 'menu'
+⋅⋅⋅Access 'sidenav.service' and fill in the 'menu' attribute with the format set there
+⋅⋅1. type: 'link' or 'accordion'
+⋅⋅2. name: index title
+⋅⋅3. icon: index icon
+⋅⋅4. submenu[optional]: ('accordion') Array with the above attributes
+
 
 
 
