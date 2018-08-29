@@ -35,11 +35,11 @@
 ## Notes
 
 1. sidenav
-⋅⋅⋅Access 'sidenav.service' and fill in the 'menu' attribute with the format set there
-⋅⋅1. type: 'link' or 'accordion'
-⋅⋅2. name: index title
-⋅⋅3. icon: index icon
-⋅⋅4. submenu[optional]: ('accordion') Array with the above attributes
+    - Access 'sidenav.service' and fill in the 'menu' attribute with the format set there
+    1. type: 'link' or 'accordion'
+    2. name: index title
+    3. icon: index icon
+    4. submenu[optional]: ('accordion') Array with the above attributes
 
 
 
