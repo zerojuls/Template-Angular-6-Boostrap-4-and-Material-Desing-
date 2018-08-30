@@ -1,4 +1,4 @@
-<header>
+<header class="animated fadeIn">
    <mat-toolbar color="primary">
       <mat-toolbar-row class="container">
          <span> Plantilla </span>
@@ -16,7 +16,7 @@
    </mat-toolbar>
 </header>
 
-<app-loader-page></app-loader-page>
+<app-loader-page time="3500"></app-loader-page>
 
 <mat-drawer-container [ngStyle]="{'width.px': windows[0], 'height.px': windows[1]-64}">
    <mat-drawer #drawer class="sidenav bg-sidenav-mat-drawer" mode="over" [ngStyle]="{'width.px': '280'}">
@@ -49,7 +49,7 @@
       </mat-nav-list>
    </mat-drawer>
     
-   <mat-drawer-content>
+   <mat-drawer-content class="animated fadeIn slower">
       <main class="container mt-3">
 
          <router-outlet></router-outlet>
