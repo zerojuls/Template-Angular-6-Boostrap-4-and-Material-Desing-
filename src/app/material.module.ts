@@ -9,6 +9,7 @@ import { MatListModule } from '@angular/material/list'; // List
 import { MatBadgeModule } from '@angular/material/badge'; // Badge
 import { MatExpansionModule } from '@angular/material/expansion'; // ExpansionPanel
 import { MatMenuModule } from '@angular/material/menu'; // Menu
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'; // Progress Spinner
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { MatMenuModule } from '@angular/material/menu'; // Menu
     MatListModule,
     MatBadgeModule,
     MatExpansionModule,
-    MatMenuModule
+    MatMenuModule,
+    MatProgressSpinnerModule
   ],
   exports: [
     MatToolbarModule,
@@ -30,7 +32,8 @@ import { MatMenuModule } from '@angular/material/menu'; // Menu
     MatListModule,
     MatBadgeModule,
     MatExpansionModule,
-    MatMenuModule
+    MatMenuModule,
+    MatProgressSpinnerModule
   ]
 })
 export class MaterialModule { }

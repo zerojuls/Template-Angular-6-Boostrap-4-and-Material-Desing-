@@ -1,0 +1,100 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700');
+
+/* CSS TEMPLATE */
+body,
+html {
+   margin: 0;
+   min-width: 368px;
+}
+
+/* ====== CSS MATERIAL DESING ====== */
+/* GLOBAL */
+.m-icon-r {
+   margin-right: 10px;
+}
+
+/* TOOLBAR */
+.toolbar-spacer {
+   flex: 1 1 auto;
+}
+
+.image-toolbar {
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   margin-top: -5px;
+}
+
+.menu-profile {
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.image-profile {
+   width: 80px;
+   height: 80px;
+   border-radius: 100%;
+}
+
+.name-profile {
+   margin-top: 5px;
+   font-family: 'Open Sans', 'Roboto';
+   font-weight: 400;
+   font-size: 20px;
+}
+
+.item-not-msg {
+   cursor: pointer;
+   padding: 10px;
+}
+
+.not-msg-hover :hover {
+   background: #F5F5F5;
+}
+
+.img-not-msg {
+   width: 60px;
+   height: 60px;
+   margin-left: 10px;
+   margin-top: 10px;
+   border-radius: 100%;
+}
+
+.name-not-mgs {
+   font-family: 'Open Sans', 'Roboto';
+   font-weight: 400;
+   font-size: 16px;
+   margin-left: -20px;
+}
+
+.content-not-mgs {
+   font-family: 'Roboto', 'Open Sans';
+   font-weight: 400;
+   font-size: 10px;
+   margin-left: -20px;
+}
+
+/* SIDENAV */
+.sidenav {
+   padding: 20px;
+}
+
+.bg-sidenav-mat-drawer {
+   background: #353b48 !important;
+}
+
+.link-sidenav {
+   cursor: pointer;
+   color: #f5f6fa !important;
+}
+
+.bg-sidenav-mat-expansion-panel {
+   cursor: pointer;
+   background: #353b48 !important;
+   box-shadow: none !important;
+}
+
+.accordion-sidenav {
+   margin-left: -10px;
+}

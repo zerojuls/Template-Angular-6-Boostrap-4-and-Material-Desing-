@@ -16,6 +16,8 @@ export class PagesComponent{
     this.windows = this.tamVentana();
   }
 
+  
+
   tamVentana() {
     var tam = [0, 0];
     if (typeof window.innerWidth != 'undefined')

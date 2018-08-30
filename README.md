@@ -9,6 +9,7 @@
 * Badge
 * Expansion
 * Menu
+* Progress spinner
 
 ### Modules
 * app.module (Primary)
@@ -16,6 +17,8 @@
 * shared.module
 * services.module
 * components.module
+* login.module
+* noFound.module
 
 ### Routes
 * app.routes
@@ -32,6 +35,7 @@
 1. message (toolbar)
 2. notification (toolbar)
 3. profile (toolbar)
+4. loader-page (global)
 
 ### Services
 1. [Shared] > sidenav.service

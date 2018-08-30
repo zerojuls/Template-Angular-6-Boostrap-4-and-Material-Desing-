@@ -4,10 +4,12 @@ import { CommonModule } from '@angular/common';
 // Modules
 import { MaterialModule } from '../material.module';
 
-// Componets
+// ===== COMPONENTS ======
+// Toolbar
 import { MessageComponent } from './toolbar/message/message.component';
 import { NotificationComponent } from './toolbar/notification/notification.component';
 import { ProfileComponent } from './toolbar/profile/profile.component';
+import { LoaderPageComponent } from './shared/loader-page/loader-page.component';
 
 @NgModule({
   imports: [
@@ -17,12 +19,14 @@ import { ProfileComponent } from './toolbar/profile/profile.component';
   declarations: [
     MessageComponent,
     NotificationComponent,
-    ProfileComponent
+    ProfileComponent,
+    LoaderPageComponent
   ],
   exports: [
     MessageComponent,
     NotificationComponent,
-    ProfileComponent
+    ProfileComponent,
+    LoaderPageComponent
   ]
 })
 export class ComponentsModule { }
