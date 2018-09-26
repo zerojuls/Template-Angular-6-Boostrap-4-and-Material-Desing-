@@ -15,6 +15,12 @@ html {
 }
 
 /* TOOLBAR */
+.header-container {
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-bottom: 10px;
+}
+
 .toolbar-spacer {
    flex: 1 1 auto;
 }
@@ -75,9 +81,16 @@ html {
    margin-left: -20px;
 }
 
+
+
 /* SIDENAV */
+.container-sidenav{
+   height: 100vh;
+}
+
 .sidenav {
    padding: 20px;
+   width: 280px;
 }
 
 .bg-sidenav-mat-drawer {
